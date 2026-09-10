@@ -1,0 +1,19 @@
+# 校园网自动登录配置（模板）
+# 复制本文件并重命名为 config.ini 后填写自己的信息
+
+# network_name: 登录网络名称（SSID）；留空则跳过自动连网
+network_name=
+
+# auth_url: 门户基础地址（如 http://192.168.0.200:8080）；留空则自动探测（推荐）
+auth_url=
+
+# probe_url: 用于检测是否已联网 / 触发门户跳转的探测地址
+probe_url=http://www.msftconnecttest.com/connecttest.txt
+
+# 账号与密码
+username=your-account@netedu
+password=your-password
+
+# 启动行为
+auto_login=0
+auto_start=0
